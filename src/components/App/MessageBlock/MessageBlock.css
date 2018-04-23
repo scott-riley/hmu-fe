@@ -1,0 +1,79 @@
+.root {
+  height: 100vh;
+  width: 100%;
+  border-left: 1px solid #eaeaea;
+  background: white;
+}
+
+.header {
+  border-bottom: 1px solid #eaeaea;
+  padding: 2rem;
+}
+
+.body {
+  padding: 2rem;
+  color: #555;
+  lost-utility: clearfix;
+  max-width: 800px;
+  margin: auto;
+  line-height: 1.5;
+}
+
+.date {
+  color: #777;
+  font-weight: 400;
+  margin-left: 15vw;
+  text-transform: uppercase;
+  font-size: .8rem;
+}
+
+.email {
+  margin-top: .14rem;
+  font-weight: 700;
+}
+
+.email a {
+  color: var(--color-secondary);
+  text-decoration: none;
+}
+
+.fieldHeader {
+  font-weight: 100;
+  font-size: 2rem;
+  text-transform: capitalize;
+  margin-bottom: .4rem;
+  color: black;
+}
+
+.thinData {
+  lost-column: 1/2;
+}
+
+.longData {
+  lost-utility: clearfix;
+  clear: both;
+  width: 100%;
+}
+
+.subject {
+  display: inline-block;
+  font-size: 2rem;
+  margin-left: 15vw;
+  vertical-align: middle;
+  font-weight: 100;
+  color: var(--color-secondary);
+}
+
+.meta {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.delete {
+  display: inline-block;
+  cursor: pointer;
+  color: red;
+  position: absolute;
+  right: 5rem;
+  top: 2rem;
+}

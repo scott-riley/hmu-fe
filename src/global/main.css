@@ -1,0 +1,23 @@
+@import './variables.css';
+@import './type.css';
+
+:root {
+	--gutter: 65px;
+}
+
+@lost gutter 65px;
+
+:global * {
+  box-sizing: border-box;
+	-webkit-font-smoothing: antialiased;
+}
+
+:global body,
+:global html {
+	margin: 0;
+	padding: 0;
+}
+
+:global body {
+	background: #fafafa;
+}
